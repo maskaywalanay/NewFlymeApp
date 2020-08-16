@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">UpdateFlymeStyle</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">Update Flyme Style</string>
+    <string name="title_app">♡♡♡ Selamat Datang ♡♡♡</string>
+	<string name="deskripsi_app">Ini Adalah proyek lanjutan dari <b>Flyme Style</b> sebelumnya, Karena aplikasi yang pertama tidak saya clone jadi terpaksa harus membuatnya lagi dari awal, tapi tidak apa-apa bagi saya. Aplikasi ini juga berisi Flyme Style dari saya dan ada juga tambahan dari teman-teman yang lainnya.</string>
+	
+	
+	
+	
+	
 </resources>

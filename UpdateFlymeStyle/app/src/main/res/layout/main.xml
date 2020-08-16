@@ -1,12 +1,52 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center">
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center">
 
-	<!-- First Commit -->
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:layout_margin="16dp">
+
+		<LinearLayout
+			android:layout_height="38dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:background="#DA726B"
+			android:gravity="center"
+			android:elevation="4dp"
+			android:paddingLeft="4dp"
+			android:paddingRight="4dp"
+			android:id="@+id/title_app">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/title_app"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="68dp"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_marginTop="46dp"
+			android:id="@+id/deskripsi_app"
+			android:paddingLeft="4dp"
+			android:paddingRight="4dp"
+			android:paddingTop="2dp"
+			android:paddingBottom="2dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="@string/deskripsi_app"/>
+
+		</LinearLayout>
+
+	</FrameLayout>
 
 </LinearLayout>
+
