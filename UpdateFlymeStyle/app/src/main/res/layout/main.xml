@@ -21,6 +21,7 @@
 			android:id="@+id/title_app">
 
 			<TextView
+				android:textAppearance="@style/JudulApp"
 				android:layout_height="wrap_content"
 				android:layout_width="wrap_content"
 				android:text="@string/title_app"/>
@@ -28,15 +29,13 @@
 		</LinearLayout>
 
 		<LinearLayout
-			android:layout_height="68dp"
+			android:layout_height="wrap_content"
 			android:layout_width="match_parent"
 			android:orientation="vertical"
 			android:layout_marginTop="46dp"
 			android:id="@+id/deskripsi_app"
-			android:paddingLeft="4dp"
-			android:paddingRight="4dp"
-			android:paddingTop="2dp"
-			android:paddingBottom="2dp">
+			android:padding="4dp"
+			android:background="@drawable/bg_header">
 
 			<TextView
 				android:layout_height="wrap_content"
