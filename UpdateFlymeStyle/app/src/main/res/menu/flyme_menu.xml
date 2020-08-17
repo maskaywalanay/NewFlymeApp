@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/kumpulan_flyme_00"
+        android:title="@string/title_page_00"/>
+    
+</menu>
