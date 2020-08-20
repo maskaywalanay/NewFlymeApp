@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+		<!-- Aktivity Page Flyme 00 -->
+		<activity
+            android:name=".FlymeUI00"
+            android:label=""/>
     </application>
 
 </manifest>

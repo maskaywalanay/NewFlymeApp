@@ -10,6 +10,8 @@ public class FlymeUI00 extends Activity
 	{
 		
 		super.onCreate(savedInstanceState);
+		setContentView(R.layout.flyme_00);
+		
 	}
 	
 	
