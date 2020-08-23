@@ -19,7 +19,7 @@
 		<!-- Aktivity Page Flyme 00 -->
 		<activity
             android:name=".FlymeUI00"
-            android:label=""/>
+            android:theme="@android:style/Theme.Material.Light.NoActionBar"/>
     </application>
 
 </manifest>

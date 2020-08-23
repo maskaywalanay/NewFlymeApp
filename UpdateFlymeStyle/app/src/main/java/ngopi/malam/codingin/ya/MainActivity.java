@@ -3,6 +3,8 @@ package ngopi.malam.codingin.ya;
 import android.app.*;
 import android.os.*;
 import android.view.*;
+import android.widget.PopupMenu.*;
+import android.content.*;
 
 public class MainActivity extends Activity 
 {
@@ -22,12 +24,23 @@ public class MainActivity extends Activity
 	}
 
 	@Override
-	public boolean onMenuItemSelected(int featureId, MenuItem item)
+	public boolean onOptionsItemSelected(MenuItem item)
 	{
-		// TODO: Implement this method
-		return super.onMenuItemSelected(featureId, item);
+		switch(item.getItemId()){
+			case  R.id.kumpulan_flyme_00:
+			startActivity(new Intent(this, FlymeUI00.class));
+			return true;
+				
+		}
+			
+		
+		return super.onOptionsItemSelected(item);
 	}
 
+	
+
+	
+	
 	
 	
 }
