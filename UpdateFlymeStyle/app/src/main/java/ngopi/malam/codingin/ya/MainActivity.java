@@ -30,6 +30,10 @@ public class MainActivity extends Activity
 			case  R.id.kumpulan_flyme_00:
 			startActivity(new Intent(this, FlymeUI00.class));
 			return true;
+			
+			case R.id.exit_app:
+			finishAndRemoveTask();
+			return true;
 				
 		}
 			
