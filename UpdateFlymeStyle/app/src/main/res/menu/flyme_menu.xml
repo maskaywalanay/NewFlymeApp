@@ -4,6 +4,11 @@
         android:id="@+id/kumpulan_flyme_00"
         android:title="@string/title_page_00"/>
 	
+	<!-- 24-August-2020 -->
+	<item
+        android:id="@+id/kumpulan_flyme_01"
+        android:title="@string/title_page_01"/>
+	
 	<item
         android:id="@+id/exit_app"
         android:title="Keluar"/>

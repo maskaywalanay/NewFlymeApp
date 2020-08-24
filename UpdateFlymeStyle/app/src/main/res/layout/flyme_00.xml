@@ -10,39 +10,171 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:orientation="vertical">
-			<FrameLayout android:layout_width="fill_parent" android:layout_height="36.0dip">
-        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
-            <LinearLayout android:orientation="vertical" android:id="@+id/parent_kiri" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-                <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
-                    <ImageView android:layout_gravity="center|left" android:layout_width="20.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_battery" android:tint="#ffffc720" />
-                    <TextView android:textSize="12.0sp" android:typeface="serif" android:textColor="#ffbf4405" android:layout_gravity="center|left" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="27%" />
-                    <TextView android:textSize="14.0sp" android:typeface="sans" android:textColor="#ffcedb39" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="34*C" />
+			<FrameLayout 
+				android:layout_width="fill_parent" 
+				android:layout_height="36.0dip">
+        <LinearLayout 
+			android:orientation="horizontal"
+			android:layout_width="fill_parent" 
+			android:layout_height="36.0dip">
+            <LinearLayout 
+				android:orientation="vertical"
+				android:id="@+id/parent_kiri" 
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent" 
+				android:layout_weight="1.0">
+                <LinearLayout 
+					android:gravity="center|left" 
+					android:orientation="horizontal"
+					android:paddingLeft="2.0dip" 
+					android:paddingRight="2.0dip" 
+					android:layout_width="fill_parent" 
+					android:layout_height="0.0dip"
+					android:layout_weight="0.5">
+                    <ImageView 
+						android:layout_gravity="center|left"
+						android:layout_width="20.0dip" 
+						android:layout_height="18.0dip"
+						android:src="@drawable/ic_battery"
+						android:tint="#ffffc720" />
+                    <TextView
+						android:textSize="12.0sp" 
+						android:typeface="serif" 
+						android:textColor="#ffbf4405" 
+						android:layout_gravity="center|left" 
+						android:paddingRight="2.0dip" 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:text="27%" />
+                    <TextView
+						android:textSize="14.0sp" 
+						android:typeface="sans"
+						android:textColor="#ffcedb39" 
+						android:gravity="center|left" 
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:text="34*C" />
                 </LinearLayout>
-                <ImageView android:background="#ff00c57b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-                <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
-                    <ImageView android:layout_width="20.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_notification" android:tint="#ffffc720" />
-                    <TextView android:textSize="12.0sp" android:typeface="serif" android:textColor="#ffca0bb6" android:gravity="center|left" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Selasa" />
+                <ImageView 
+					android:background="#ff00c57b" 
+					android:layout_width="fill_parent" 
+					android:layout_height="1.0dip" />
+                <LinearLayout
+					android:gravity="center|left" 
+					android:orientation="horizontal"
+					android:paddingLeft="2.0dip"
+					android:layout_width="fill_parent" 
+					android:layout_height="0.0dip" 
+					android:layout_weight="0.5">
+                    <ImageView 
+						android:layout_width="20.0dip" 
+						android:layout_height="18.0dip" 
+						android:src="@drawable/ic_notification"
+						android:tint="#ffffc720" />
+                    <TextView 
+						android:textSize="12.0sp" 
+						android:typeface="serif" 
+						android:textColor="#ffca0bb6"
+						android:gravity="center|left" 
+						android:paddingLeft="2.0dip" 
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:text="Selasa" />
                 </LinearLayout>
             </LinearLayout>
-            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/parent_tengah" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-                <TextClock android:textSize="16.0sp" android:textColor="#ff00c57b" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <LinearLayout 
+				android:gravity="center"
+				android:orientation="vertical"
+				android:id="@+id/parent_tengah" 
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent" 
+				android:layout_weight="1.0">
+                <TextClock 
+					android:textSize="16.0sp" 
+					android:textColor="#ff00c57b" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
             </LinearLayout>
-            <LinearLayout android:orientation="vertical" android:id="@+id/parent_kanan" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
-                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
-                    <ImageView android:layout_width="20.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_sinyal" android:tint="#ff00d90b" />
-                    <ImageView android:layout_width="20.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_sinyal" android:tint="#ff00d90b" />
-                    <TextView android:textSize="12.0sp" android:typeface="serif" android:textColor="#ff2172d6" android:layout_gravity="center|right" android:paddingLeft="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Telkomsel" />
+            <LinearLayout
+				android:orientation="vertical" 
+				android:id="@+id/parent_kanan" 
+				android:layout_width="0.0dip"
+				android:layout_height="fill_parent" 
+				android:layout_weight="1.0">
+                <LinearLayout 
+					android:gravity="center|right" 
+					android:orientation="horizontal" 
+					android:paddingRight="2.0dip" 
+					android:layout_width="fill_parent"
+					android:layout_height="0.0dip" 
+					android:layout_weight="0.5">
+                    <ImageView
+						android:layout_width="20.0dip" 
+						android:layout_height="18.0dip" 
+						android:src="@drawable/ic_sinyal" 
+						android:tint="#ff00d90b" />
+                    <ImageView 
+						android:layout_width="20.0dip" 
+						android:layout_height="18.0dip"
+						android:src="@drawable/ic_sinyal" 
+						android:tint="#ff00d90b" />
+                    <TextView
+						android:textSize="12.0sp" 
+						android:typeface="serif"
+						android:textColor="#ff2172d6" 
+						android:layout_gravity="center|right" 
+						android:paddingLeft="2.0dip"
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:text="Telkomsel" />
                 </LinearLayout>
-                <ImageView android:background="#ff00c57b" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-                <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5">
-                    <ImageView android:layout_width="18.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_dnd" android:tint="#ffff16b7" />
-                    <TextView android:textSize="12.0sp" android:textStyle="italic" android:textColor="#ff3385e0" android:layout_gravity="center|right" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="29-jan-2019" />
-                    <ImageView android:layout_width="18.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_speed_net" android:tint="#ffff0028" />
+                <ImageView
+					android:background="#ff00c57b" 
+					android:layout_width="fill_parent" 
+					android:layout_height="1.0dip" />
+                <LinearLayout 
+					android:gravity="center|right" 
+					android:orientation="horizontal"
+					android:paddingLeft="2.0dip" 
+					android:paddingRight="2.0dip" 
+					android:layout_width="fill_parent" 
+					android:layout_height="0.0dip" 
+					android:layout_weight="0.5">
+                    <ImageView 
+						android:layout_width="18.0dip" 
+						android:layout_height="wrap_content"
+						android:src="@drawable/ic_dnd"
+						android:tint="#ffff16b7" />
+                    <TextView 
+						android:textSize="12.0sp" 
+						android:textStyle="italic"
+						android:textColor="#ff3385e0" 
+						android:layout_gravity="center|right" 
+						android:paddingLeft="2.0dip" 
+						android:paddingRight="2.0dip" 
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:text="23-Agustus-2020" />
+                    <ImageView
+						android:layout_width="18.0dip" 
+						android:layout_height="wrap_content" 
+						android:src="@drawable/ic_speed_net" 
+						android:tint="#ffff0028" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-        <ImageView android:layout_gravity="center" android:background="@drawable/bulet" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginRight="57.0dip" />
-        <ImageView android:layout_gravity="center" android:background="@drawable/bulet" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="57.0dip" />
+        <ImageView 
+			android:layout_gravity="center" 
+			android:background="@drawable/bulet" 
+			android:layout_width="8.0dip" 
+			android:layout_height="8.0dip" 
+			android:layout_marginRight="57.0dip" />
+        <ImageView 
+			android:layout_gravity="center" 
+			android:background="@drawable/bulet" 
+			android:layout_width="8.0dip" 
+			android:layout_height="8.0dip" 
+			android:layout_marginLeft="57.0dip" />
     </FrameLayout>
 		</LinearLayout>
 	</ScrollView>
