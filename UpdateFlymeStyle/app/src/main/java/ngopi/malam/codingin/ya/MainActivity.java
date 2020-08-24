@@ -32,10 +32,11 @@ public class MainActivity extends Activity
 			return true;
 			
 			case R.id.kumpulan_flyme_01:
-			// Comingsoon 
+			// Comingsoon //
 			Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
 			return true;
 			
+			// Comingsoon //
 			case R.id.kumpulan_flyme_02:
 			Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
 			return true;
