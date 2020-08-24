@@ -4,6 +4,7 @@ import android.app.*;
 import android.os.*;
 import android.view.*;
 import android.content.*;
+import android.widget.*;
 
 public class MainActivity extends Activity 
 {
@@ -30,10 +31,32 @@ public class MainActivity extends Activity
 			startActivity(new Intent(this, FlymeUI00.class));
 			return true;
 			
+			case R.id.kumpulan_flyme_01:
+			// Comingsoon 
+			Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			return true;
+			
+			case R.id.kumpulan_flyme_02:
+			Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			return true;
+			
+			case R.id.kumpulan_flyme_03:
+				Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			return true;
+			
+			case R.id.kumpulan_flyme_04:
+				Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			return true;
+			
+			case R.id.kumpulan_flyme_05:
+				Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			return true;
+			
 			case R.id.exit_app:
 			finishAndRemoveTask();
 			return true;
-				
+			
+			
 		}
 			
 		
