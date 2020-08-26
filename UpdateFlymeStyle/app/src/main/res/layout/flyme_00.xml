@@ -4,15 +4,9 @@
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent"
 	android:orientation="vertical">
-	<ScrollView android:layout_width="fill_parent"
-	android:layout_height="fill_parent">
-		<LinearLayout
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:orientation="vertical">
-			<FrameLayout 
-				android:layout_width="fill_parent" 
-				android:layout_height="36.0dip">
+	<FrameLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="36.0dip">
         <LinearLayout 
 			android:orientation="horizontal"
 			android:layout_width="fill_parent" 
@@ -176,7 +170,5 @@
 			android:layout_height="8.0dip" 
 			android:layout_marginLeft="57.0dip" />
     </FrameLayout>
-		</LinearLayout>
-	</ScrollView>
 </LinearLayout>
 
