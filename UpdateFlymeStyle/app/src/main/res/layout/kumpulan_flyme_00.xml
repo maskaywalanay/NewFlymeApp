@@ -1,21 +1,41 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
-	
-	<ScrollView 
-		android:layout_height="fill_parent"
-		android:layout_width="fill_parent">
-		<LinearLayout
-			android:paddingBottom="16.0dip"
-			android:paddingTop="16.0dip"
-			android:orientation="vertical"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<ScrollView
 			android:layout_height="fill_parent"
 			android:layout_width="fill_parent">
-			<include layout="@layout/flyme_00"/>
-			
-		</LinearLayout>
-		
-	</ScrollView>
-    
+
+			<LinearLayout
+				android:paddingBottom="16.0dip"
+				android:paddingTop="16.0dip"
+				android:orientation="vertical"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent">
+
+				<include
+					layout="@layout/flyme_00"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"
+			android:layout_gravity="bottom|center_horizontal"
+			android:id="@+id/button_exit"
+			android:layout_marginBottom="16dp"/>
+
+	</FrameLayout>
+
 </LinearLayout>
+
