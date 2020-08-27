@@ -3,7 +3,7 @@
 
     <string name="app_name">Update Flyme Style</string>
     <string name="title_app">♡♡♡ Selamat Datang ♡♡♡</string>
-	<string name="deskripsi_app">Ini Adalah proyek lanjutan dari <b>Flyme Style</b> sebelumnya, Karena <u>Aplikasi</u> yang pertama tidak saya clone jadi terpaksa harus membuatnya lagi dari awal, tapi tidak apa-apa bagi saya. Aplikasi ini juga berisi <b>Flyme Style</b> dari saya dan ada juga tambahan dari teman-teman yang lainnya.</string>
+	<string name="deskripsi_app"><div style="text-align: justify;">Ini Adalah proyek lanjutan dari <b>Flyme Style</b> sebelumnya, Karena <u>Aplikasi</u> yang pertama tidak saya clone jadi terpaksa harus membuatnya lagi dari awal, tapi tidak apa-apa bagi saya. Aplikasi ini juga berisi <b>Flyme Style</b> dari saya dan ada juga tambahan dari teman-teman yang lainnya.</div></string>
 	<string name="title_page_00">Flyme UI 00</string>
 	<string name="title_page_01">Flyme UI 01</string>
 	<!-- 24-August-2020 -->
