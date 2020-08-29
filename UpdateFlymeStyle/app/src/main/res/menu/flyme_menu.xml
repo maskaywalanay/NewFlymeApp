@@ -32,6 +32,10 @@
         android:title="@string/title_page_05"/>
 	
 	<item
+        android:id="@+id/cara_install"
+        android:title="@string/title_cara_install"/>
+	
+	<item
         android:id="@+id/exit_app"
         android:title="Keluar"/>
     

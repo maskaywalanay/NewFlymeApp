@@ -16,5 +16,6 @@
 	<string name="title_page_08">Flyme UI 08</string>
 	<string name="title_page_09">Flyme UI 09</string>
 	<string name="title_page_10">Flyme UI 10</string>
-	
+	<!-- 29-Agustus-->
+	<string name="title_cara_install">Cara Install</string>
 </resources>
