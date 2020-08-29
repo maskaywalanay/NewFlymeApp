@@ -6,6 +6,7 @@
 		<item name="android:windowShowWallpaper">true</item>
 		<item name="android:background">@color/background_app_00</item>
 		<item name="android:actionBarTheme">@color/accent_app</item>
+		<item name="android:actionBarTabTextStyle">@style/JudulApp</item>
 		<item name="android:windowEnterAnimation">@style/AppAnimation</item>
 	</style>
 	<!-- Added Animation -->

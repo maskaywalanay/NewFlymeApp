@@ -1,14 +1,20 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu 
+	xmlns:android="http://schemas.android.com/apk/res/android">
     
     <item
+		android:icon="@drawable/ic_launcher"
+		android:showAsAction="ifRoom"
         android:id="@+id/kumpulan_flyme_00"
         android:title="@string/title_page_00"/>
 	
 	<!-- 24-August-2020 -->
 	<item
+		android:icon="@drawable/ic_launcher"
+		android:showAsAction="ifRoom"
         android:id="@+id/kumpulan_flyme_01"
         android:title="@string/title_page_01"/>
 	
+	<!-- Penambahan Icon Menu Di ActionBar -->
 	<item
         android:id="@+id/kumpulan_flyme_02"
         android:title="@string/title_page_02"/>
