@@ -41,7 +41,11 @@ public class MainActivity extends Activity
 			
 			case R.id.kumpulan_flyme_01:
 			// Comingsoon //
-			Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			
+			Intent i = new Intent(Intent.ACTION_VIEW);
+			i.setClassName("ngopi.malam.codingin.ya","ngopi.malam.CaraInstall");
+			startActivity(i);
+			
 			return true;
 			
 			// Comingsoon //

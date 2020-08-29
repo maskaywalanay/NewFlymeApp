@@ -20,6 +20,11 @@
 		<activity
             android:name=".FlymeUI00"
             android:theme="@android:style/Theme.Material.Light.NoActionBar"/>
-    </application>
+    
+		<!-- Penambahan Kelas Baru Untuk Cara Pemasangan -->
+		<activity
+            android:name="ngopi.malam.CaraInstall"
+            android:theme="@android:style/Theme.Material.Light.NoActionBar"/>
+	</application>
 
 </manifest>
