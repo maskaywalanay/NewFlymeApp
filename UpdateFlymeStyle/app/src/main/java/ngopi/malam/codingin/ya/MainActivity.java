@@ -5,16 +5,33 @@ import android.os.*;
 import android.view.*;
 import android.content.*;
 import android.widget.*;
+import android.view.View.*;
 
 public class MainActivity extends Activity 
 {
-	 
+	 ProgressBar pb;
 	
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+		
+		pb = (ProgressBar)findViewById(R.id.progress);
+		pb.setOnClickListener(new OnClickListener(){
+
+				@Override
+				public void onClick(View p1)
+				{
+					// TODO: Implement this method
+					p1.isClickable();
+					Toast.makeText(getApplicationContext(),"Ini Adalah Progress Loading",Toast.LENGTH_SHORT).show();
+					return ;
+					
+				}
+				
+			
+		});
     }
 
 	@Override
@@ -24,6 +41,8 @@ public class MainActivity extends Activity
 		getMenuInflater().inflate(R.menu.flyme_menu,menu);
 		return super.onCreateOptionsMenu(menu);
 	}
+
+	
 
 	
 	@Override

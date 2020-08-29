@@ -2,6 +2,16 @@
 <resources>
     <style name="AppTheme" parent="">
 		<item name="android:fitsSystemWindows">true</item>
+		<item name="android:colorAccent">@color/accent_app</item>
 		<item name="android:windowShowWallpaper">true</item>
+		<item name="android:background">@color/background_app_00</item>
+		<item name="android:actionBarTheme">@color/accent_app</item>
+		<item name="android:windowEnterAnimation">@style/AppAnimation</item>
 	</style>
+	<!-- Added Animation -->
+	<style name="AppAnimation" parent="">
+		<item name="android:windowExitAnimation">@anim/app_dialog_enter</item>
+		<item name="android:windowEnterAnimation">@anim/app_dialog_enter</item>
+	</style>
+	
 </resources>

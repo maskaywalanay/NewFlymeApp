@@ -2,4 +2,7 @@
 <resources>
 	<color name="app_theme">#EE417B</color>
 	<color name="app_accent">#fff1f1f1</color>
+	<color name="accent_app">#FF009E</color>
+	<color name="action_bar_color">@color/accent_app</color>
+	<color name="background_app_00">#ff000000</color>
 </resources>
