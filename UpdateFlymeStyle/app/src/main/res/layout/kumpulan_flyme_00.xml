@@ -20,8 +20,31 @@
 				android:layout_height="fill_parent"
 				android:layout_width="fill_parent">
 
+				<TextView
+					android:paddingBottom="8dp"
+					android:paddingTop="8dp"
+					android:textAppearance="@style/TextTitleFlyme"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="@string/flyme_style_00"
+					android:singleLine="true"
+					android:gravity="center_horizontal"/>
+
 				<include
 					layout="@layout/flyme_00"/>
+				
+				<TextView
+					android:paddingBottom="8dp"
+					android:paddingTop="8dp"
+					android:textAppearance="@style/TextTitleFlyme"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="@string/flyme_style_01"
+					android:singleLine="true"
+					android:gravity="center_horizontal"/>
+			
+				<include
+					layout="@layout/flyme_01"/>
 
 			</LinearLayout>
 

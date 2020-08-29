@@ -42,9 +42,7 @@ public class MainActivity extends Activity
 			case R.id.kumpulan_flyme_01:
 			// Comingsoon //
 			
-			Intent i = new Intent(Intent.ACTION_VIEW);
-			i.setClassName("ngopi.malam.codingin.ya","ngopi.malam.CaraInstall");
-			startActivity(i);
+				Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
 			
 			return true;
 			
@@ -63,6 +61,12 @@ public class MainActivity extends Activity
 			
 			case R.id.kumpulan_flyme_05:
 				Toast.makeText(getApplicationContext(),"Comingsoon",Toast.LENGTH_SHORT).show();
+			return true;
+			
+			case R.id.cara_install:
+				Intent i = new Intent(Intent.ACTION_VIEW);
+				i.setClassName("ngopi.malam.codingin.ya","ngopi.malam.CaraInstall");
+				startActivity(i);
 			return true;
 			
 			case R.id.exit_app:
