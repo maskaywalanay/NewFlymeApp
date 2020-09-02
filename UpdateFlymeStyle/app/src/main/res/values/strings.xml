@@ -24,7 +24,8 @@
 	<string name="flyme_style_03">Flyme Style 03</string>
 	<string name="flyme_style_04">Flyme Style 04</string>
 	<string name="flyme_style_05">Flyme Style 05</string>
-	
+	<!-- 02-September-2020 -->
+	<string name="cara_install_flyme_ui">Untuk Memasang <b>Flyme StatusBar</b> Anda harus Memenuhi syarat, Apa syarat yang harus di penuhi?</string>
 	
 	
 </resources>

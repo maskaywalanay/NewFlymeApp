@@ -45,6 +45,19 @@
 			
 				<include
 					layout="@layout/flyme_01"/>
+				
+				<TextView
+					android:paddingBottom="8dp"
+					android:paddingTop="8dp"
+					android:textAppearance="@style/TextTitleFlyme"
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:text="@string/flyme_style_02"
+					android:singleLine="true"
+					android:gravity="center_horizontal"/>
+
+				<include
+					layout="@layout/flyme_02"/>
 
 			</LinearLayout>
 
